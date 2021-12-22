@@ -1,0 +1,254 @@
+.register {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background {
+    background-image: url("../images/hust.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;  
+    width: 100vw;
+    height: 100vh;  
+    filter: blur(5px);
+}
+
+.is-flex {
+    display: flex;
+}
+
+::-webkit-input-placeholder {
+    color: black;
+    font-family: inherit;
+    font-weight: normal;
+    font-size: 14px;
+    opacity: 0.6;
+}
+
+.signUpForm {
+    padding: 0 8px;
+    display: flex;
+    justify-content: flex-end;
+    /* margin: 10vh 0; */
+    position: absolute;
+    /* top: 0; */
+}
+
+.acount {
+    padding: 32px;
+    background: #fff;
+    box-shadow: 0 9px 46px 8px rgb(0 0 0 / 2%), 0 24px 38px 3px rgb(0 0 0 / 4%), 0 11px 15px -7px rgb(0 0 0 / 5%);
+    border-radius: 10px;
+    width: 50vw;
+}
+
+.width-235vw {
+    width: 23.5vw;
+}
+
+.acount__title {
+    font-size: 24px;
+    margin-bottom: 32px;
+    line-height: 30px;
+}
+
+.input-group__label {
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.input-group {
+    margin: 16px 0;
+}
+
+.input-group-input {
+    height: 48px;
+    position: relative;
+}
+
+.input-group-input input {
+    border: 1px solid #e6e6e6;
+    transition: all .3s;
+    font-size: 14px;
+    padding: 8px 20px;
+    width: 100%;
+    height: 100%;
+    border-radius: 3rem;
+    margin-top: 8px;
+}
+
+.input-group-input span{
+    position: absolute;
+    top: 22px;
+    right: 15px;
+    color: #d2d2d2;
+}
+.input-group-input span i {
+    font-size: 16px;
+}
+
+.update-phone {
+    display: flex;
+    align-items: center;
+}
+
+.country-phone {
+    margin-right: 16px;
+    margin-top: 18px;
+    height: 48px;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f6f6f6;
+    border-radius: 3rem;
+}
+
+.country-phone .flag-wrapper {
+    width: 120px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flag-wrapper img {
+    width: 20px;
+    margin-right: 6px;
+}
+
+.flag-wrapper span {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.acount-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.acount-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.acount-body__button {
+    width: 50%;
+    height: 56px;
+    padding: 0 30px;
+    margin-top: 32px;
+    border: none;
+    box-shadow: 0 4px 12px 0 rgb(246 116 57 / 40%);
+    background-image: var(--bg-section);
+    background-size: 200% auto;
+    border-radius: 27px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.acount-body button:hover{
+    background-image: linear-gradient(to right, #8d4fff, #fa9e1b);
+}
+
+.acount-footer button:hover {
+    background-position: 100%;
+}
+
+.acount-footer .acount-sign-up {
+    font-size: 17px;
+    margin-top: 32px;
+}
+
+.acount-footer .sign-up {
+    color: var(--hover-color);
+    font-weight: bold;
+}
+
+.acount-footer-note {
+    margin-top: 32px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.acount-footer-note a {
+    text-decoration: none;
+    color: var(--black-color);
+    font-weight: 700;
+    opacity: 0.8;
+    transition: all 0.3s;
+}
+
+.acount-footer-note a:hover {
+    color: var(--hover-color);
+}
+
+.sign-in-social {
+    margin-top: 32px;
+    width: 100%;
+}
+
+.sign-in-social-social{
+    width: 100%;
+    height: 56px;
+    padding: 0 30px;
+    margin-top: 16px;
+    border-radius: 3rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 16px;
+    border: 1px solid #e6e6e6;
+    color: #555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.sign-in-social__icon {
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    right: 2rem;
+    font-size: 26px;
+}
+
+.signInForm {
+    padding: 0 8px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.input-wraper {
+    width: 100%;
+    justify-content: center;
+}
+
+.form-title__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.is-flex__col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
