@@ -10,6 +10,7 @@ function App() {
       <Route path="/register" element={<RegisterForm />} />
       <Route path="/login" element={<LoginForm />} />
       <Route path="/connect" element={<MetaMaskForm/>} />
+      
     </Routes>
   );
 }
